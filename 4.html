@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var stroka = prompt("введите строку, состоящую из 20 символов");
+	if (stroka.length == 20){
+var a=0;
+		for(var i =0; i<stroka.length;i++){
+			if(stroka[i] == stroka [4])
+			a++;
+		}
+document.write(stroka + " ")
+document.write("символ " +stroka[4] + " повторяется " +a +"  раз")
+
+} else {
+	document.write("строка должна состоять из 20 символов, а не из " + stroka.length)
+}
+</script>
+</body>
+</html>
