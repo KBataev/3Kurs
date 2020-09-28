@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var r1=prompt("введите значение сопротивления первого проводника"), 
+	r2=prompt("введите значение сопротивления второго проводника"),rPar, rCons;
+	rCons = +r1 + +r2;
+	rPar=(r1*r2)/(r1+r2);
+	if(isNaN(r1) || isNaN(r2)){document.write("надо ввести число")}
+		else {	document.write("сопротивление двух последовательных резисторов равно " +rCons +"<br>" +"сопротивление двух параллельных резисторов равно " +rPar);}
+</script>
+</body>
+</html>
