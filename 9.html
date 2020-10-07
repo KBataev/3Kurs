@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title></title>
+</head>
+<body><script type="text/javascript">
+	var now = new Date();
+	var hours = now.getHours();
+	var time = hours +0.01*now.getMinutes()
+	document.write(time +"<br>");
+	if (time >= 7 && time <= 8){
+		document.write("время завтрака" +"<br>");
+	} else if(time >=13 && time <= 14){
+		document.write("время обеда" +"<br>");
+	} else if(time >=19 && time <= 20){
+		document.write("время ужина" +"<br>");
+	} else if(time >=18 && time <= 23){
+		document.write("время отдыха" + "<br>");
+	}else if(time >=23 && time <= 6.30){
+		document.write("время сна")
+	} else {
+		document.write("время работы")
+	}
+
+</script>
+
+</body>
+</html>
