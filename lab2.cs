@@ -16,7 +16,7 @@ namespace lab2
             B b = new B(10, 10);
             Console.WriteLine("Значение поля c2 = " + b.c2);
             B b2 = new B();
-            Console.WriteLine("Значение все того же c2 = " + b.c2);
+            Console.WriteLine("Значение нового  c2 = " + b.c2);
         }
     }
 
