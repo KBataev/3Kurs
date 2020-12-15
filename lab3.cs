@@ -11,13 +11,13 @@ namespace lab3
 
         static void Main(string[] args)
         {
-            A a = new A(9, 3);
+            A a = new A(10, 10);
             Console.WriteLine("Значение поля c = " + a.c);
-            B b = new B(9, 3);
+            B b = new B(10, 10);
             Console.WriteLine("Значение поля c2 = " + b.c2);
             B b2 = new B();
             Console.WriteLine("Значение нового c2 = " + b2.c2); //тут я продемонстрировал работу дефолтного конструктора класса B как и требовал этого таск
-            B b3 = new B(9, 13);
+            B b3 = new B(10, 5);
             Console.WriteLine("\nЗначения массива: ");
             foreach (var i in b3.array)
             {
