@@ -28,7 +28,7 @@ namespace lab6
 
             foreach (Man m in mans)
             {
-                Console.WriteLine($"{m.BirthYear} - {m.Surname} года рождения {m.Status}");
+                Console.WriteLine($"{m.BirthYear} - {m.Surname} - {m.Status}");
             }
         }
     }
