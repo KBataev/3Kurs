@@ -44,7 +44,7 @@ namespace lab2
 
         public float c
         {
-            get { return a + b; }
+            get { return a / b; }
         }
 
         public A(float a, float b)
