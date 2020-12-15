@@ -20,8 +20,8 @@ namespace Laba1
     }
     class A
     {
-       private float a = 9;
-       private float b = 3;
+       private float a = 10;
+       private float b = 10;
  
         public float c 
     {
